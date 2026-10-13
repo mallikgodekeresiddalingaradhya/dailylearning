@@ -15,3 +15,10 @@ print("Division of x and y is: ", div)
 
 floor_div = x // y
 print("Floor Division of x and y is: ", floor_div)
+
+mod = x % y
+print("Modulus of x and y is: ", mod)
+
+print("Power of x and y is: ", x ** y)
+
+print(x+y-x+y*2**3)
