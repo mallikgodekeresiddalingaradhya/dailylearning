@@ -9,7 +9,7 @@ hudugiya_hesaru = input("Dayaviṭṭu hudugiya hesarannu namūdisi: ")
 
 hudugiya_age = input("Dayaviṭṭu hudugiya vayassannu namūdisi: ")
 
-age_difference = int(hudugana_age) - int(hudugiya_age)
+age_difference = abs(int(hudugana_age) - int(hudugiya_age))
 
 
 print("Age difference between " + hudugana_hesaru + " and " + hudugiya_hesaru + " is " + str(age_difference))
